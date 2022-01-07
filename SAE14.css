@@ -1,0 +1,432 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@100;200;300;400&family=Ubuntu:wght@300;400;500&display=swap');
+
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+}
+
+
+
+
+body > nav {
+	background-color: rgb(255,255,255);
+}
+body > nav > article {
+	display: inline-block;
+	font-size:  300%;
+	color: black;
+	padding: 1%;
+	font-family: Open Sans;
+}
+body > nav > a.liens {
+	float: right;
+	font-size:  300%;
+	text-decoration: none;
+	padding-left: 2%;
+	color: white;
+	padding: 1%;
+	background-color: rgb(200,50,30);
+	transition: 1s;
+	font-family: Open Sans;
+}
+body > nav > a.back {
+	float: left;
+	font-size:  300%;
+	text-decoration: none;
+	padding-left: 2%;
+	color: white;
+	padding: 1%;
+	background-color: rgb(200,50,30);
+	transition: 1s;
+		font-family: Open Sans;
+}
+nav > a.back:hover{
+	background-color: rgb(90, 100, 200);
+}
+nav > a.liens:hover{
+	background-color: rgb(90, 100, 200);
+}
+
+body > div > section.bienvenue > article{
+	background-color: rgb(70,60,60);
+	font-size: 250%;
+	text-align: center;
+	padding: 2.5%;
+	color: rgb(150, 190, 220);
+	font-family: Poppins;
+}
+body > div > section.bienvenue > article > p > a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+body > div > section.presentation{
+	height: 350px;
+}
+body > div > section.presentation > article.cote {
+	width: 40%;
+	background-color: rgb(200,50,30);
+	float: left;
+	height: 100%;
+
+}
+body > div > section.presentation > article.cote > img{
+	height: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+body > div > section.presentation > article.moi {
+	width: 60%;
+	float: right;
+	height: 100%;
+}
+body > div > section.presentation > article.moi > header{
+	text-align: center;
+	font-size: 200%;
+	padding-top: 2%;
+	font-family: Ubuntu;
+}
+body > div > section.presentation > article.moi > p{
+	font-size: 150%;
+	padding: 2%;
+	font-family: Poppins;
+}
+body > div > section.presentation > article.moi > p > a{
+	color: rgb(200,50,30);
+	text-decoration: none;
+}
+
+
+
+
+
+body > div > section.debut > article{
+	height: 575px;
+}
+body > div > section.debut > article.etudes {
+	width: 70%;
+	float: left;
+	background-color: rgb(70,60,60);
+}
+body > div > section.debut > article.etudes > header {
+	text-align: center;
+	font-size: 200%;
+	padding-top: 2%;
+	color: rgb(150, 190, 220);
+	font-family: Ubuntu;
+}
+body > div > section.debut > article.etudes > p {
+	font-size: 150%;
+	padding: 5%;
+	color: rgb(150, 190, 220);
+	font-family: Poppins;
+}
+body > div > section.debut > article.im1 {
+	width: 30%;
+	float: right;
+	background-color: rgb(200,50,30);
+}
+body > div > section.debut > article.im1 > img{
+	height: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+
+
+
+
+body > div > section.projets{
+	height: 450px;
+}
+body > div > section.projets > article.sport{
+	background-color: rgb(90, 100, 200);
+	float: right;
+	width: 65%;
+	height: 100%;
+}
+body > div > section.projets > article.sport > header {
+	text-align: center;
+	padding-top: 2%;
+	font-size: 200%;
+	font-family: Ubuntu;
+}
+body > div > section.projets > article.sport > p {
+	font-size: 150%;
+	padding: 5%;
+	font-family: Poppins;
+}
+body > div > section.projets > article.im2 {
+	width: 35%;
+	height: 100%;
+	float: left;
+	background-color: white;
+}
+body > div > section.projets > article.im2 > img{
+	width: 80%;display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+}
+
+
+
+
+
+body > div > section.projet2 {
+	height: 500px;
+}
+body > div > section.projet2 > article.langue {
+	width: 75%;
+	float: left;
+	background-color: rgb(200,50,30);
+	height: 100%;
+}
+body > div > section.projet2 > article.langue > header{
+	text-align: center;
+	padding-top: 2%;
+	font-size: 200%;
+	font-family: Ubuntu;
+}
+body > div > section.projet2 > article.langue > p{
+	font-size: 150%;
+	padding: 4.5%;
+	font-family: Poppins;
+}
+body > div > section.projet2 > article.im3 {
+	width: 25%;
+	height: 100%;
+	float: right;
+	background-color: rgb(70,60,60);
+}
+body > div > section.projet2 > article.im3 > img{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 45px;
+}
+
+
+
+
+
+body > div > section.suite {
+	height: 500px;
+}
+body > div > section.suite > article.futur {
+	width: 60%;
+	float: right;
+	background-color: white;
+	height: 100%;
+}
+body > div > section.suite> article.futur > header{
+	text-align: center;
+	padding-top: 2%;
+	font-size: 200%;
+	font-family: Ubuntu;
+}
+body > div > section.suite > article.futur > p{
+	font-size: 150%;
+	padding: 4.5%;
+	font-family: Poppins;
+}
+body > div > section.suite > article.im4 {
+	width: 40%;
+	height: 100%;
+	float: left;
+	background-color: rgb(90, 100, 200);
+}
+body > div > section.suite > article.im4 > img{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+
+
+
+
+body > div > p.monter{
+	text-align: center;
+	font-size: 400%;
+	background-color: rgb(200,50,30);
+	height: 100%;
+	margin: 0%;
+}
+body > div > p.monter > a{
+	color: white;
+	transition: 1s;
+}
+body > div > p.monter > a:hover{
+	color: rgb(70,60,60);
+}
+
+
+
+
+body > div > section.eveil > header {
+	text-align: center;
+	font-size: 300%;
+	padding: 1%;
+	font-family: Ubuntu;
+}
+body > div > section.eveil > img{
+	width: 20%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+body > div > section.eveil > p{
+	font-size: 200%;
+	font-family: Poppins;
+		padding-left: 10%;
+	padding-right: 10%;
+}
+body > div > section.eveil > p > a{
+	color: rgb(200,50,30);
+	text-decoration: none;
+}
+
+
+
+body > div > section.ensuite{
+	background-color: rgb(200,50,30);
+		padding-left: 10%;
+	padding-right: 10%;
+}
+body > div > section.ensuite > header {
+	text-align: center;
+	font-size: 300%;
+	padding: 1%;
+	font-family: Ubuntu;
+}
+body > div > section.ensuite > img.flute {
+	float: left;
+	padding: 1%;
+	width: 10%;
+}
+body > div > section.ensuite > p {
+	font-size: 200%;
+	padding: 1%;
+	margin: 0%;
+	font-family: Poppins;
+}
+
+
+
+
+
+body > div > section.mtn{
+	background-color: rgb(90, 100, 200);
+}
+body > div > section.mtn > header {
+	text-align: center;
+	font-size: 300%;
+	padding-top: 5%;
+	margin: 0%;
+}
+body > div > section.mtn > p {
+	font-size: 200%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	margin: 0%;
+	font-family: Poppins;
+}
+
+
+
+
+
+body > div > section.apport{
+	background-color: white;
+}
+body > div > section.apport > header {
+	text-align: center;
+	font-size: 300%;
+	padding-top: 5%;
+	margin: 0%;
+	padding-bottom: 3%;
+	font-family: Ubuntu;
+}
+body > div > section.apport > p {
+	font-size: 200%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	margin: 0%;
+	font-family: Poppins;
+}
+
+
+
+
+
+body > header{
+	font-size: 200%;
+	text-align: center;
+	background-color: rgb(200,50,30);
+	color: white;
+	font-family: Ubuntu;
+}
+body > header > h1{
+	margin: 0%;
+	padding: 1%;
+}
+body > div  > p{
+	font-size: 400%;
+	text-align: center;
+	margin: 0%;
+	padding: 2%;
+}
+body > div > main > form{
+	display: inline-block;
+}
+body > div > main > form.pp {
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right: 2%;
+	margin-left: 10%;
+}
+body > div > main > form.pass {
+	float: right;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right: 10%;
+	margin-left: 2%;
+}
+body > div > main > form.pp > button {
+	color: white;
+	background-color: rgb(200,50,30);
+	border-radius: 50px;
+	font-size: 300%;
+	padding: 2%;
+	transition: 1s;
+}
+body > div > main > form.pass > button {
+	color: white;
+	background-color: rgb(200,50,30);
+	border-radius: 50px;
+	width: 100%;
+	font-size: 300%;
+	padding: 2%;
+	transition: 1s;
+}
+body > div > main > form > button:hover{
+	background-color: rgb(90, 100, 200);
+}
